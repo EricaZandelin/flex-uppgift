@@ -1,0 +1,119 @@
+body {
+    background-color: sandybrown;
+    margin: 0;  
+   }
+   
+   .square {
+       min-height: 78px;
+       min-width: 78px;
+       background-color: black;
+       border-radius: 4px;
+       margin: 10px;
+   }
+   
+   .rectangle {
+       height: 78px;
+       width: 156px;
+       background-color: black;
+       border-radius: 4px;
+       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+     }
+   
+   p {
+        color: wheat;
+     }
+   
+   
+   .container {
+       /*border: 10px solid black;*/
+       position: relative;
+       width: 70%;
+       height: 50%;
+       padding: 25px 0;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       flex-direction: column;
+      
+   
+   }
+   
+   
+   .item {
+       background-color: darkslategray;
+       border-radius: 15px;
+       min-width: 468px;
+       min-height: 160px;
+       margin: 20px;
+       /*
+       order:;
+       align-self:;
+       flex-basis:100px;
+       /*flex-grow: ;
+       flex-shrink: ;
+       flex-basis: ;
+       /*using only flex is combo of three above*/
+   }
+   
+   
+   
+   .one {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-end;
+      padding: 10px;
+   
+       /*flex-grow: 1;
+       flex-shrink: 1;
+       flex-basis: 250px;
+       /*kortkom. på detta: flex: 0 1 250px; 
+       detta vill jag kunna i specifikt rutor/rektangel*/
+       
+   }
+   
+   .two {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: center;
+      
+   }
+   
+   .three {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: flex-end;
+       align-items: center;
+       padding: 10px;
+   
+   
+   }
+   
+   .four {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: flex-end;
+      padding: 10px;
+      
+   }
+   
+   
+   
+   .five {
+       display: flex;
+      justify-content: space-around;
+      padding: 10px;
+   
+   }
+   
+   .six {
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-evenly;
+       align-items: center;
+       padding: 10px;
+   
+   }
+   
+   
