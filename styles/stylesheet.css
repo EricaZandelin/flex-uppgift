@@ -11,16 +11,10 @@ body {
        margin: 10px;
    }
    
-   .rectangle {
-       height: 78px;
-       width: 156px;
-       background-color: black;
-       border-radius: 4px;
-       box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
-     }
    
    p {
         color: wheat;
+        text-align: center;
      }
    
    
@@ -34,8 +28,6 @@ body {
        justify-content: center;
        align-items: center;
        flex-direction: column;
-      
-   
    }
    
    
@@ -55,8 +47,7 @@ body {
        /*using only flex is combo of three above*/
    }
    
-   
-   
+
    .one {
       display: flex;
       flex-wrap: wrap;
@@ -92,20 +83,24 @@ body {
    .four {
       display: flex;
       flex-wrap: wrap;
-      justify-content: flex-start;
-      align-items: flex-end;
-      padding: 10px;
-      
+      justify-content:space-between;
+      align-items: flex-start;
+
+      padding: 10px;   
    }
+
+   /*moving square in box 4 */
+   .square__first { align-self:flex-end;}
    
-   
-   
+
    .five {
        display: flex;
       justify-content: space-around;
       padding: 10px;
-   
    }
+
+   /*moving square in box five*/
+   .square__second { align-self: center;}
    
    .six {
        display: flex;
@@ -113,7 +108,9 @@ body {
        justify-content: space-evenly;
        align-items: center;
        padding: 10px;
-   
    }
    
+   /*moving square in box siv */
+
+   .square__third { flex-grow:1;}
    
